@@ -13,7 +13,7 @@
 - 本地方法栈  
 与虚拟机栈类似,本地方法栈为虚拟机使用到的Native方法服务  
 ***
-####2.4 HotSpot虚拟机对象探秘
+#### 2.4 HotSpot虚拟机对象探秘
 - java堆  
 是垃圾收集器管理的主要区域,用于存放对象实例  
 如果在堆中没有内存完成实例分配,并且堆也无法再扩展时,将会抛出OutOfMemoryError异常  
@@ -46,7 +46,7 @@ JVM要求对象的大小必须是8字节的整倍数
 2.指针访问方式  
 效率高  
 ***
-####实战: OutOfMemoryError异常  
+#### 实战: OutOfMemoryError异常  
 - Java堆溢出  
 参数
 >AM Args: -Xms20M -Xmx20M -XX:+HeapDumpOnOutOfMemoryError
